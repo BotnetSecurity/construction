@@ -613,6 +613,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  text-align: center;
 }
 
 .services .icon-box::before {
@@ -678,6 +679,7 @@ section {
 .counts .count-box {
   padding: 30px;
   width: 100%;
+  text-align: center;
 }
 
 .counts .count-box i {
@@ -762,6 +764,15 @@ section {
   z-index: 1;
 }
 
+#gallery h2, p{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-weight: 700;
+  margin-bottom: 15px;
+  
+}
 
 /*--------------------------------------------------------------
 # Cta
