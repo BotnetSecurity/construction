@@ -1,9 +1,4 @@
-/**
-* Template Name: Squadfree - v2.2.0
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -53,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   color: #fff;
   background: #86c0da;
-  transition: background 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 #main {
@@ -68,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: rgba(103, 176, 209, 0.8);
+  background: rgba(92, 9, 9, 0.8);
 }
 
 #header.header-transparent {
@@ -76,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(103, 176, 209, 0.8);
+  background: rgba(0, 0, 0, 0.568);
   padding: 0;
 }
 
@@ -343,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(40, 53, 168, 0.274), rgba(0, 0, 0, 0.411)), url("../img/building-background-2.webp") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(2, 32, 97, 0.411)), url("../img/building-background-2.webp") fixed center center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -412,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     margin-bottom: 30px;
     
@@ -562,10 +557,11 @@ section {
   position: absolute;
   right: 18px;
   top: 9px;
+  
 }
 
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: #162547;
 }
 
 .about .icon-boxes .icon-box {
@@ -679,7 +675,7 @@ section {
 .counts .count-box {
   padding: 30px;
   width: 100%;
-  text-align: center;
+  
 }
 
 .counts .count-box i {
@@ -704,6 +700,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #49788c;
+  text-align: left;
 }
 
 .counts .count-box a {
@@ -748,7 +745,7 @@ section {
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color:#6e9fb4;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -756,7 +753,7 @@ section {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #f82249;
+  border: 6px solid #088cc5;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -775,10 +772,46 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Sponsors Section
+--------------------------------------------------------------*/
+#supporters {
+  padding: 60px 0;
+  text-align: center;
+  
+}
+
+#supporters .supporters-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
+#supporters .supporter-logo {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(243, 243, 243, 0.5);
+  height: 150px;
+}
+
+#supporters .supporter-logo:hover img {
+  transform: scale(1.2);
+}
+
+#supporters img {
+  transition: all 0.4s ease-in-out;
+}
+
+
+/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(23, 23, 24, 0.8), rgba(94, 11, 25, 0.664)), url("../img/building-background.jpg") fixed center center;
+  background: linear-gradient(rgba(23, 23, 24, 0.8), rgba(5, 28, 131, 0.664)), url("../img/building-background.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
