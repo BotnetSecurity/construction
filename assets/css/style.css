@@ -544,9 +544,7 @@ section {
   text-align: justify;
 }
 
-.about .content span{
-  
-}
+
 
 .about .content .about-btn {
   display: inline-block;
@@ -589,6 +587,7 @@ section {
 .about .icon-boxes .icon-box p {
   font-size: 15px;
   color: #848484;
+  text-align: justify;
 }
 
 @media (max-width: 1200px) {
