@@ -541,10 +541,21 @@ section {
 
 .about .content p {
   margin-bottom: 30px;
-  text-align: justify;
+  text-align: center;
 }
 
+.about .comment {
+  width: 93%;
+  margin: 0 auto;
+}
+a.morelink {
+  outline: none;
+  color: #5bc0de !important;
+}
+.morecontent span {
+  display: none;
 
+}
 
 .about .content .about-btn {
   display: inline-block;
@@ -601,6 +612,7 @@ section {
     text-align: center;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Services
