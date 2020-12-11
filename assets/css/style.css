@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #67b0d1;
+  color: #681424;
 }
 
 a:hover {
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #67b0d1;
+  background: #68142383;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #86c0da;
+  background: #681424;
   transition: 0.2s ease-in-out;
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.568);
+  background: #681424;
   padding: 0;
 }
 
@@ -93,12 +93,12 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
 }
 
 @media (max-width: 768px) {
   #header.header-scrolled {
-    padding: 15px 0;
+    padding: 1px 0;
   }
 }
 
