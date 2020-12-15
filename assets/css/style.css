@@ -835,7 +835,7 @@ a.morelink {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(23, 23, 24, 0.8), rgba(5, 28, 131, 0.664)), url("../img/building-background.jpg") fixed center center;
+  background: linear-gradient(rgba(12, 12, 14, 0.8), rgba(49, 2, 2, 0.664)), url("../img/building-background.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -866,7 +866,8 @@ a.morelink {
 }
 
 .cta .cta-btn:hover {
-  border-color: #fff;
+  border-color: #dc754c;
+  background-color: #dc754c;
 }
 
 
@@ -877,7 +878,7 @@ a.morelink {
   background: #14637a;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #footer .footer-top {
@@ -1020,6 +1021,9 @@ a.morelink {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+#footer .copyright a{
+  color: whitesmoke;
 }
 
 @media (max-width: 575px) {
