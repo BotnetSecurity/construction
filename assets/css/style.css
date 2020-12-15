@@ -669,12 +669,13 @@ a.morelink {
 }
 
 .services .title a {
-  color: #111;
+  color: #641221;
 }
 
 .services .description {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 14px;
+  color: #686868;
+  
   margin-bottom: 0;
 }
 
